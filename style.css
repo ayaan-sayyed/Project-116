@@ -1,0 +1,22 @@
+#Bye{
+font-variant: small-caps;
+font-weight: bold;
+font-style: italic;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-top: 30px;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 20px 5px 20px cyan;
+    }
+
+    to {
+        box-shadow: 1px 10px 38px blue;
+    }
+}
